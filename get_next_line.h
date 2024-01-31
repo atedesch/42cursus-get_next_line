@@ -6,7 +6,7 @@
 /*   By: atedesch <atedesch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:22:33 by atedesch          #+#    #+#             */
-/*   Updated: 2024/01/31 13:23:28 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/01/31 13:26:07 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,5 @@
 # include <stdio.h>
 # include <stdlib.h>
 
+char	*get_next_line(int fd);
 #endif
