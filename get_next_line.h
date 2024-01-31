@@ -1,17 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: atedesch <atedesch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/31 13:17:17 by atedesch          #+#    #+#             */
-/*   Updated: 2024/01/31 13:24:32 by atedesch         ###   ########.fr       */
+/*   Created: 2024/01/31 13:22:33 by atedesch          #+#    #+#             */
+/*   Updated: 2024/01/31 13:23:28 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
-char	*get_next_line(int fd)
-{
-}
+# include <unistd.h>
+# include <stdio.h>
+# include <stdlib.h>
+
+#endif
