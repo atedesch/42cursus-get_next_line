@@ -6,7 +6,7 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:22:33 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/01 13:17:26 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/01 16:54:21 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@
 # ifdef __unix__
 #  define NIL_STRING "(nil)"
 # endif
+
+# define BUFFER_SIZE 42 // !! le variabili globali sono proibite, cancellare !!
 
 size_t	ft_strlen(const char *c);
 char	*ft_strjoin(char const *s1, char const *s2);
