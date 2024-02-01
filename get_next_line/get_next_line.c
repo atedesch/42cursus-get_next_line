@@ -6,7 +6,7 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:17:17 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/01 16:45:06 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/01 18:55:07 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ char	*ft_next(char *buffer)
 	return (line);
 }
 
-// take line for return
 char	*ft_line(char *buffer)
 {
 	char	*line;
