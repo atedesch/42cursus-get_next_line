@@ -6,7 +6,7 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:22:33 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/01 13:06:22 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/01 13:17:26 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,10 @@
 #  define NIL_STRING "(nil)"
 # endif
 
+size_t	ft_strlen(const char *c);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strchr(const char *s, int c);
+void	ft_bzero(void *s, size_t n);
+void	*ft_calloc(size_t count, size_t size);
 char	*get_next_line(int fd);
 #endif
