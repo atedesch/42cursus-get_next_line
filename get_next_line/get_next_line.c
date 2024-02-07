@@ -6,17 +6,17 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:17:17 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/01 18:55:07 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/07 16:31:12 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char	*ft_free(char *buffer, char *buf)
+char	*ft_free(char *buffer, char *buffer2)
 {
 	char	*temp;
 
-	temp = ft_strjoin(buffer, buf);
+	temp = ft_strjoin(buffer, buffer2);
 	free(buffer);
 	return (temp);
 }
