@@ -6,18 +6,18 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:17:17 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/07 16:31:12 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/16 20:35:39 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char	*ft_free(char *buffer, char *buffer2)
+char	*ft_free(char *input, char *input2)
 {
 	char	*temp;
 
-	temp = ft_strjoin(buffer, buffer2);
-	free(buffer);
+	temp = ft_strjoin(input, input2);
+	free(input);
 	return (temp);
 }
 
