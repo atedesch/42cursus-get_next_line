@@ -6,14 +6,14 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/16 20:40:45 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/16 20:52:24 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/16 21:00:14 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <fcntl.h>
 #include "../get_next_line/get_next_line.h"
 #include "../get_next_line/get_next_line_utils.c"
-#include "..//get_next_line/get_next_line.c"
+#include "../get_next_line/get_next_line.c"
 
 int	main(void)
 {
