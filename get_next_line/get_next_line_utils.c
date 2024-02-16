@@ -6,7 +6,7 @@
 /*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:21:57 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/01 13:17:17 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/16 19:14:25 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 size_t	ft_strlen(const char *c)
 {
-	size_t	i;
+	size_t	n;
 
-	i = 0;
-	while (c[i] != '\0')
-		i++;
-	return (i);
+	n = 0;
+	while (c[n] != '\0')
+		n++;
+	return (n);
 }
 
 char	*ft_strjoin(char const *s1, char const *s2)
