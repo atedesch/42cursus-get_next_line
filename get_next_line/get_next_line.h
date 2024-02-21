@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atedesch <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: atedesch <atedesch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 13:22:33 by atedesch          #+#    #+#             */
-/*   Updated: 2024/02/16 21:47:23 by atedesch         ###   ########.fr       */
+/*   Updated: 2024/02/21 11:48:09 by atedesch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,6 @@
 # ifdef __unix__
 #  define NIL_STRING "(nil)"
 # endif
-
-# define BUFFER_SIZE 42 // !! NO varglob, !! CANCELLARE !!
 
 size_t	ft_strlen(const char *c);
 char	*ft_strjoin(char const *s1, char const *s2);
